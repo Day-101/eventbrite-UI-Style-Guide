@@ -29,4 +29,17 @@ a.text-primary:focus, a.text-primary:hover {
 }
 
 .card{border: none!important;}
-.card-body h5{height: 90px;}
+
+
+@media (max-width:576px){
+  .grid-content{display: grid; grid-template-columns: 1fr; grid-gap: 1em;}
+}
+@media (min-width:576px){
+  .grid-content{display: grid; grid-template-columns: 1fr 1fr; grid-gap: 1em;}
+}
+@media (min-width:768px){
+  .grid-content{display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 1em;}
+}
+@media (min-width:992px){
+  .grid-content{display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; grid-gap: 1em;}
+}
