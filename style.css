@@ -43,3 +43,12 @@ a.text-primary:focus, a.text-primary:hover {
 @media (min-width:992px){
   .grid-content{display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; grid-gap: 1em;}
 }
+.grid-comment{grid-template-columns:50px 1fr; row-gap: 0.25em;}
+.grid-sub-comment{grid-column: 2;}
+.avatar-comment{grid-row: 1 / span 3}
+.name-comment{}
+.content-comment{grid-column: 2;}
+.datetime-comment{grid-column: 2;}
+.submit-comment{grid-column: 2;}
+.grid-comment textarea{border: none;}
+.h-50px{height: 28px;}
