@@ -41,19 +41,57 @@
         <h1>Comments</h1>
         <hr>
       </div>
-      
-      <div class="container">
-        <div>
-          <div class="comment-avatar"></div>
-        </div>
-        <div>  
-          <div class="">John</div>
-          <div class="">This is my comment !</div>
-          <small>8:15</small>
-        </div>
-        <button>Comment</button>
-      </div>
+      <div class="container bg-white rounded px-4 py-4">
 
+        <div class="grid-content grid-comment">
+
+          <div class="bg-dark rounded avatar-comment" style="width:50px;height:50px;"></div>
+          <div class="content-comment rounded text-dark bg-light px-4 py-4">
+            <strong class="name-comment">John</strong>
+            <div>Waaaahou ! This is my first comment on this website ! Tonight It was AMAZING !!! I drunk too much but I was ok lol ! Hope this band come back very soon ! I'm so excited I'll can't sleep and be tired tomorow. My boss will fire me lol !!!!!</div>
+          </div>
+          <div class="datetime-comment">
+            <a href="#" class="text-black-50"><small class="font-weight-bolder">Reply</small></a>
+            <small class="text-muted">&middot; 0:15</small>
+          </div>
+
+          <div class="grid-content grid-comment">
+            <div class="bg-dark rounded avatar-comment" style="width:50px;height:50px;"></div>
+            <div class="content-comment rounded text-dark bg-light px-4 py-4">
+              <strong class="name-comment">Karen</strong>
+              <div>JOHN !!! GO BACK TO SLEEP !!!</div>
+            </div>
+            <div class="datetime-comment">
+              <a href="#" class="text-black-50"><small class="font-weight-bolder">Reply</small></a>
+              <small class="text-muted">&middot; 0:17</small>
+            </div>
+          </div>
+          <div class="grid-content grid-comment grid-sub-comment">
+            <div class="bg-dark rounded avatar-comment" style="width:50px;height:50px;"></div>
+            <div class="content-comment rounded text-dark bg-light px-4 py-4">
+              <strong class="name-comment">John</strong>
+              <div>WTF MUM ?!! Call the manager bitch !</div>
+            </div>
+            <div class="datetime-comment">
+              <a href="#" class="text-black-50"><small class="font-weight-bolder">Reply</small></a>
+              <small class="text-muted">&middot; 0:18</small>
+            </div>
+          </div>
+
+          <div class="grid-content grid-comment grid-sub-comment">
+            <div class="bg-dark rounded avatar-comment" style="width:50px;height:50px;"></div>
+            <div class="content-comment rounded text-dark bg-light px-2 py-2">
+              <textarea class="w-100 bg-light h-50px" placeholder="Write a comment"></textarea>
+            </div>
+            <div class="submit-comment mt-1">
+              <button class="btn btn-primary">Publish</button>
+            </div>
+          </div>
+
+        </div>
+
+
+      </div>
       <div class="container">
         <footer class="guide-footer pl-3 pr-3 mt-5">
           <p>Remade by Day&nbsp;SY, inspired by Thomas&nbsp;Park.</p>
